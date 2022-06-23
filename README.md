@@ -43,3 +43,6 @@ It run by this command:
 
 Example:
 	python 462project_step2_LearningFromHata.py step2_model_LearningFromHata.pkl VAL
+
+# Best Result
+![alt text](https://github.com/melihaydogd/sentimental-analysis/blob/master/result.jpg?raw=true)

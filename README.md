@@ -2,7 +2,7 @@
 
 This project is made for CMPE 462 Machine Learning course. By using IMDB comments, a model to predict the sentiment of a given sentence trained.
 
-# main.py
+## main.py
 
 It reads the files from TRAIN folder. By using TfidfVectorizer creates a feature matrix. 
 Also, it find the labels of the files. Then, it pickles training data, validation data and TfidfVectorizer.
@@ -17,7 +17,7 @@ It run by this command:
 Then, pickle files will be created.
 
 
-# models.py
+## models.py
 
 Open the pickles files that were created by main.py. Models are applied to the data. It saves the accuracy plot.
 In that way, we can see which model gives highest accuracy. It also prints out accuracies and classification reports
@@ -32,7 +32,7 @@ It run by this command:
 Then, pickle file will be created.
 
 
-# 462project_step2_LearningFromHata.py
+## 462project_step2_LearningFromHata.py
 
 Takes two command line arguments. One of them step2_model_LearningFromHata.pkl and other one is dataset folder name.
 It reads the files in dataset folder respectively and transforms them by TfidfVectorizer that comes with 
